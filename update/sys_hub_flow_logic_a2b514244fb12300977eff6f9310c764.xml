@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6eb514244fb12300977eff6f9310c762</block>
+        <comment/>
+        <connected_to>b19625c5-860b-4d96-b036-8538d803e5e4</connected_to>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">714003a34f052300977eff6f9310c785</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6f0eeb1f-5684-443b-8123-349112399a09</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 09:17:55</sys_created_on>
+        <sys_id>a2b514244fb12300977eff6f9310c764</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_a2b514244fb12300977eff6f9310c764</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-14 16:42:03</sys_updated_on>
+        <ui_id>0eeded33-06df-4ba6-894b-0159c9ac684d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a2b514244fb12300977eff6f9310c764"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a2b514244fb12300977eff6f9310c764</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 09:17:55</sys_created_on>
+        <sys_id>a2b514244fb12300977eff6f9310c768</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-12 09:17:55</sys_updated_on>
+        <value>Facilities request</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a2b514244fb12300977eff6f9310c764</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 09:17:55</sys_created_on>
+        <sys_id>eeb514244fb12300977eff6f9310c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-12 09:17:55</sys_updated_on>
+        <value>{{1dddc399-7532-4923-8723-63a3a5654ece.record.u_request_type}}=facilities</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+</record_update>
